@@ -1,0 +1,24 @@
+.rounded-div {
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+    @media (min-width: 768px) {
+        text-align: right;
+        flex-direction: row;
+    }
+
+}
+
+.rounded-input {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 100%;
+    border-radius: 1rem;
+    border-width: 1px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
